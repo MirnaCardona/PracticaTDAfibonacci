@@ -17,7 +17,7 @@
  * @return void.
 */
 
-void file_num_write(FILE * file, size_t columns, long double buff[] [columns], size_t rows);
+void file_num_write(FILE * file, size_t columns, long double buff[] [columns], size_t rows)
 {
 if(file==NULL)
 {
