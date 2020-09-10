@@ -17,7 +17,7 @@
  *          Index of the fibonacci sequence
  * @return long long int value
 */
-long long int Sequences_sfibo(long long int n);
+long long int Sequences_sfibo(long long int n)
 {
 log log int Fibo, Fiboant=1, Fiboant2=0;
 log i=1;
