@@ -19,8 +19,8 @@
 */
 long long int Sequences_sfibo(long long int n)
 {
-log log int Fibo, Fiboant=1, Fiboant2=0;
-log i=1;
+long long int Fibo, Fiboant=1, Fiboant2=0;
+long i=1;
 while(i<=n)
 {
 	Fibo=Fiboant+Fiboant2;
