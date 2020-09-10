@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 #define STATISTIC 20.0
-#define OBSERVATIONS 6
+#define OBSERVATIONS 20
 #define VALUES 3
 
 typedef enum{
