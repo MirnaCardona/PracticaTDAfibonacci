@@ -8,6 +8,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <file.h>
 
 #include "FibMain.h"
 #include "files.h"
@@ -23,7 +24,7 @@ int main (void){
     long double buffer[OBSERVATIONS][VALUES] = {0};
     size_t obs = 0;
     
-    record = file_new("fib_time.dat","w");
+    record = fopen("fib_time.dat","w");
     
     for(obs = 0; obs < OBSERVATIONS; obs ++){
         printf("%zu\n", obs);
