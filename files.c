@@ -27,6 +27,6 @@ printf("El programa termino de manera anormal");
 exit(0);}
 else
 for(i=0;i<rows;i++)
-  fprintf(file, "%d\t%d\t%d",  buff[i][index], buff[i][RECURSIVE], buff[i][ITERATIVE]);
+  fprintf(file, "%d\t%d\t%d",  buff[i][i], buff[i][RECURSIVE], buff[i][ITERATIVE]);
   
 }
