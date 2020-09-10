@@ -19,7 +19,7 @@ int main (void){
     clock_t start, stop;
     double cpu_time = 0;
     double mean = 0;
-    File * record = NULL;
+    FILE * record = NULL;
     long double buffer[OBSERVATIONS][VALUES] = {0};
     size_t obs = 0;
     
