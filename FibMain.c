@@ -36,7 +36,7 @@ int main (void){
         
         cpu_time = ((double)(stop-start)) /CLOCKS_PER_SEC /
             STATISTIC;
-        buffer[obs][index] = obs;
+        buffer[obs][INDEX] = obs;
         buffer[obs][RECURSIVE] = cpu_time;
         //printf("Recursive Fibo time %f s\t", cpu_time);
         
